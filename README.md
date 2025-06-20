@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <a href="/litAmor_main/assest/Screenshot 2025-06-20 at 21-41-33 SoloSpark.png" target="_blank">
+  <a href="assest/Screenshot 2025-06-20 at 21-41-33 SoloSpark.png" target="_blank">
   </a>
   <br />
 
@@ -67,7 +67,7 @@ just open index.html in your browser
 
 ## 🎯 Hidden Tab
 🧩 <a name="hidden-tab">How Hidden Tab Works</a>
- <img src="/litAmor_main/assest/Screenshot 2025-06-20 at 21-42-21 SoloSpark.png" alt="Reflection Task" width="100%" /> 
+ <img src="assest/Screenshot 2025-06-20 at 21-42-21 SoloSpark.png" alt="Reflection Task" width="100%" /> 
 
   🔐 Important: The "How It Works" section in Solo Sparks remains hidden by default.
 
@@ -89,7 +89,7 @@ if (localStorage.getItem("tasksCompleted") === "true") {
 ```
 ## 📌 This ensures users engage meaningfully before jumping into explanations.
 📸 Preview Screenshots <a name="screenshots"></a>
-<p align="center"> <img src="/litAmor_main/assest/Screenshot 2025-06-20 at 21-41-33 SoloSpark.png" alt="Home Page" width="100%" /> <br><br> <img src="/litAmor_main/assest/Screenshot 2025-06-20 at 21-42-21 SoloSpark.png" alt="Reflection Task" width="100%" /> <br><br> <img src="/litAmor_main/assest/Screenshot 2025-06-20 at 21-42-33 SoloSpark.png" alt="How It Works Section" width="100%" /> </p>
+<p align="center"> <img src="assest/Screenshot 2025-06-20 at 21-41-33 SoloSpark.png" alt="Home Page" width="100%" /> <br><br> <img src="assest/Screenshot 2025-06-20 at 21-42-21 SoloSpark.png" alt="Reflection Task" width="100%" /> <br><br> <img src="assest/Screenshot 2025-06-20 at 21-42-33 SoloSpark.png" alt="How It Works Section" width="100%" /> </p>
 
 ##🚀 More
 

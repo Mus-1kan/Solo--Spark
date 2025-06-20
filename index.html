@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoloSpark</title>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: 'Merienda', cursive;
+       background-color:  #030208;
+        color: white;
+      }
+
+      p, .paragraph, .text-gray-300 {
+        font-family: 'Poppins', sans-serif;
+      }
+      .neon-text {
+        color: #fff;
+        text-shadow:
+          0 0 5px #ff00ff,
+          0 0 10px #ff00ff,
+          0 0 20px #ff00ff,
+          0 0 40px #ff00ff;
+      }
+      .glass {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+      }
+      .hero-img {
+        max-width: 500px;
+        height: auto;
+        border-radius: 1rem;
+      }
+      .footer-image {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      opacity: 1;
+      z-index: 0;
+    }
+    .footer-content {
+      position: relative;
+      z-index: 1;
+      max-width: 900px;
+      margin: auto;
+    }
+    .footer-heading {
+      font-size: 32px;
+      font-weight: 800;
+      color: #ff00cc;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+    }
+    .footer-text {
+      font-size: 18px;
+      color: #f5f5f5;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+    .footer-links a {
+      color: #ff66cc;
+      margin: 0 12px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .footer-links a:hover {
+      color: #ffffff;
+      text-shadow: 0 0 10px #ff00cc;
+    }
+    </style>
+  </head>
+  <body class="min-h-screen overflow-x-hidden">
+    <header class="flex justify-between items-center px-10 py-6 z-10 relative">
+      <div class="flex items-center space-x-2">
+        <h1 class="text-2xl font-bold text-white">SoloSparks</h1>
+      </div>
+      <nav class="space-x-6 text-white text-lg">
+        <a href="#" class="hover:text-purple-400">Home</a>
+        <a href="#" class="hover:text-purple-400">How its Work</a>
+        <a href="#" class="hover:text-purple-400">Testimonial</a>
+        <a href="#" class="hover:text-purple-400"> get started</a>
+        <button class="ml-4 px-4 py-1 rounded-lg bg-purple-700 hover:bg-purple-900 text-white">Sign In / Sign Up</button>
+      </nav>
+    </header>
+<section class="relative text-white pt-10 px-10 -mt-10">
+  <div class="relative z-10 max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between">
+    <div class="lg:w-1/2 space-y-6">
+      <h2 class="text-4xl md:text-5xl font-bold leading-tight max-w-3xl">
+        <span class="text-white tracking-wider text-[28px] block" style="font-family: 'Montserrat', sans-serif; letter-spacing: 2px;">
+          Fall in Love With
+        </span>
+        <span class="block text-[100px] leading-none font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-fuchsia-500 to-indigo-500">
+          YOUR<br/>SELF
+        </span>
+        <span class="text-white tracking-wider text-[28px] block mt-2" style="font-family: 'Montserrat', sans-serif; letter-spacing: 2px;">
+          First 💖
+        </span>
+      </h2>
+      <p class="mt-4 max-w-2xl text-lg leading-relaxed text-white/90 font-light" style="font-family: 'Poppins', sans-serif;">
+        Discover the spark within. <span class="text-yellow-400 font-medium">Solo Sparks</span> isn't just a feature — it's your journey to self-trust, emotional clarity, and bold inner peace.<br/>
+        <span class="text-orange-400 font-semibold">Love yourself</span> not as an option, but as a foundation. Everything starts with <span class="bg-gradient-to-r from-pink-500 via-fuchsia-500 to-indigo-500 text-transparent bg-clip-text font-semibold">YOU</span>.
+      </p>
+      <button class="mt-6 px-6 py-3 bg-pink-600 rounded-full hover:bg-pink-800 text-white font-semibold">
+        Begin Your Self-Love Journey →
+      </button>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-6 pt-10">
+        <div class="text-center">
+          <h3 class="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-fuchsia-500 to-indigo-500">One Heart</h3>
+          <p class="text-white/80 text-sm">That deserves all your love</p>
+        </div>
+        <div class="text-center">
+          <h3 class="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-fuchsia-500 to-indigo-500">Daily Rituals</h3>
+          <p class="text-white/80 text-sm">Little acts of self-kindness</p>
+        </div>
+        <div class="text-center">
+          <h3 class="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-fuchsia-500 to-indigo-500">100%</h3>
+          <p class="text-white/80 text-sm">Real self-connection</p>
+        </div>
+      </div>
+    </div>
+    <div class="lg:w-1/2 mt-10 lg:mt-0 flex justify-center">
+      <img src="assest/pot.jpg" alt="Self Love Art" class="hero-img mt-[-40px] lg:mt-[-25px] max-w-[580px]" />
+    </div>
+  </div>
+</section>
+
+<section class="py-20 px-6 md:px-20 bg-gradient-to-br from-[#030208] via-[#0f001e] to-[#16052d] text-white">
+  <h2 class="text-3xl md:text-4xl font-bold text-center mb-14 text-pink-400">🌿 How It Works</h2>
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+    <div onclick="toggleBox('box1')" class="relative group p-6 rounded-2xl bg-[#16052d] border border-purple-800 shadow-lg hover:shadow-pink-500/30 transition-all duration-300 cursor-pointer">
+      <div class="text-4xl mb-4 text-pink-400">💬</div>
+      <h3 class="text-xl font-semibold mb-2">Step 1</h3>
+      <p class="text-sm text-gray-300">Tell us how you're feeling</p>
+      <div class="absolute inset-0 rounded-2xl border-2 border-pink-500 opacity-0 group-hover:opacity-40 transition duration-300"></div>
+    </div>
+    <div onclick="toggleBox('box2')" class="relative group p-6 rounded-2xl bg-[#16052d] border border-purple-800 shadow-lg hover:shadow-pink-500/30 transition-all duration-300 cursor-pointer">
+      <div class="text-4xl mb-4 text-fuchsia-400">🧘‍♀️</div>
+      <h3 class="text-xl font-semibold mb-2">Step 2</h3>
+      <p class="text-sm text-gray-300">Get your self-love quest</p>
+      <div class="absolute inset-0 rounded-2xl border-2 border-fuchsia-500 opacity-0 group-hover:opacity-40 transition duration-300"></div>
+    </div>
+    <div onclick="toggleBox('box3')" class="relative group p-6 rounded-2xl bg-[#16052d] border border-purple-800 shadow-lg hover:shadow-pink-500/30 transition-all duration-300 cursor-pointer">
+      <div class="text-4xl mb-4 text-indigo-400">📸</div>
+      <h3 class="text-xl font-semibold mb-2">Step 3</h3>
+      <p class="text-sm text-gray-300">Upload your reflection (text/photo/audio)</p>
+      <div class="absolute inset-0 rounded-2xl border-2 border-indigo-500 opacity-0 group-hover:opacity-40 transition duration-300"></div>
+    </div>
+    <div onclick="toggleBox('box4')" class="relative group p-6 rounded-2xl bg-[#16052d] border border-purple-800 shadow-lg hover:shadow-pink-500/30 transition-all duration-300 cursor-pointer">
+      <div class="text-4xl mb-4 text-yellow-400">✨</div>
+      <h3 class="text-xl font-semibold mb-2">Step 4</h3>
+      <p class="text-sm text-gray-300">Earn Spark Points & grow emotionally</p>
+      <div class="absolute inset-0 rounded-2xl border-2 border-yellow-500 opacity-0 group-hover:opacity-40 transition duration-300"></div>
+    </div>
+  </div>
+
+  <div id="box1" class="hidden mt-10 p-6 rounded-xl bg-gradient-to-br from-[#1a003a] via-[#300a63] to-[#1a003a] border border-pink-400 shadow-xl">
+    <h3 class="text-lg font-semibold text-pink-300 mb-2">💗 Your Safe Space</h3>
+    <textarea id="feelingInput" placeholder="Pour your heart out..." class="w-full h-48 p-4 rounded-lg bg-[#2e015d]/70 text-white placeholder:text-pink-200 text-md leading-relaxed shadow-inner focus:outline-none focus:ring-2 focus:ring-pink-500"></textarea>
+    <p class="text-xs text-pink-200 mt-2">Your words stay private. This space is yours.</p>
+    <button onclick="submitTask('box1')" class="mt-4 px-4 py-2 bg-pink-600 hover:bg-pink-700 rounded-full text-white font-semibold">Submit</button>
+  </div>
+
+  <div id="box2" class="hidden mt-6 p-6 bg-gradient-to-br from-[#1a003a] via-[#4c0d7a] to-[#1a003a] border border-fuchsia-400 rounded-xl shadow-xl text-fuchsia-100">
+    <h3 class="text-lg font-semibold mb-3">✨ Today’s Self-Love Quest</h3>
+    <ul class="list-disc list-inside space-y-2 text-sm">
+      <li>💌 Write a love letter to yourself</li>
+      <li>🪞 Look in the mirror and smile intentionally</li>
+      <li>🕯️ Light a candle and reflect for 5 minutes</li>
+    </ul>
+  </div>
+
+  <div id="box3" class="hidden mt-6 p-6 bg-gradient-to-br from-[#1a003a] via-[#2e0177] to-[#1a003a] border border-indigo-400 rounded-xl shadow-xl text-indigo-100">
+    <h3 class="text-lg font-semibold mb-3">📤 Upload Reflection</h3>
+    <p class="text-sm mb-2">Share what you’ve felt — in a photo, a voice note, or a journal file.</p>
+    <input type="file" id="reflectionUpload" class="block w-full text-sm file:py-2 file:px-4 file:rounded-full file:border-0 file:font-semibold file:bg-indigo-600 file:text-white hover:file:bg-indigo-700" />
+    <button onclick="submitTask('box3')" class="mt-4 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 rounded-full text-white font-semibold">Submit</button>
+  </div>
+
+  <div id="box4" class="hidden mt-6 p-6 bg-gradient-to-br from-[#1a003a] via-[#5e2b00] to-[#1a003a] border border-yellow-400 rounded-xl shadow-xl text-yellow-100">
+    <h3 class="text-lg font-semibold mb-2">🌟 Summary</h3>
+    <p class="text-sm">You’ve opened your heart, embraced your path, and expressed your truth. You earned <strong>Spark Points</strong> not just for tasks, but for choosing you today. 💖</p>
+    <canvas id="confetti-canvas" class="absolute top-0 left-0 w-full h-full pointer-events-none"></canvas>
+  </div>
+</section>
+
+
+<style>
+@media (max-width: 768px) {
+  .group:hover .group-hover\:opacity-40 {
+    opacity: 0 !important;
+  }
+}
+.animate__animated {
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}
+.animate__fadeInUp {
+  animation-name: fadeInUp;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+</style>
+
+<section id="growth-tracker" class="hidden py-24 px-6 md:px-20 bg-gradient-to-br from-[#10001f] via-[#1a012f] to-[#230643] text-white">
+  <h2 class="text-4xl font-bold text-center mb-16 text-fuchsia-400">🧘 Your Growth Tracker</h2>
+  <!-- Weekly Progress -->
+  <div class="mb-12">
+    <h3 class="text-2xl font-semibold mb-4 text-pink-400">📅 Weekly Self-Love Progress</h3>
+    <div class="flex space-x-4 overflow-x-auto pb-4">
+      <div class="flex flex-col items-center"><div class="w-10 h-10 rounded-full bg-pink-500 shadow-md mb-2"></div><span class="text-sm">Mon</span></div>
+      <div class="flex flex-col items-center"><div class="w-10 h-10 rounded-full bg-pink-600 shadow-md mb-2"></div><span class="text-sm">Tue</span></div>
+      <div class="flex flex-col items-center"><div class="w-10 h-10 rounded-full bg-pink-700 shadow-md mb-2"></div><span class="text-sm">Wed</span></div>
+      <div class="flex flex-col items-center"><div class="w-10 h-10 rounded-full bg-pink-800 shadow-md mb-2 ring-2 ring-yellow-400 animate-pulse"></div><span class="text-sm">Thu</span></div>
+      <div class="flex flex-col items-center"><div class="w-10 h-10 rounded-full bg-pink-700 shadow-md mb-2"></div><span class="text-sm">Fri</span></div>
+      <div class="flex flex-col items-center"><div class="w-10 h-10 rounded-full bg-pink-600 shadow-md mb-2"></div><span class="text-sm">Sat</span></div>
+      <div class="flex flex-col items-center"><div class="w-10 h-10 rounded-full bg-pink-500 shadow-md mb-2"></div><span class="text-sm">Sun</span></div>
+    </div>
+  </div>
+  <!-- Mood Timeline -->
+  <div class="mb-16">
+    <h3 class="text-2xl font-semibold mb-4 text-yellow-400">💫 Mood Timeline</h3>
+    <div class="relative w-full h-2 bg-gray-600 rounded-full">
+      <div class="absolute top-0 left-0 h-2 bg-gradient-to-r from-pink-500 via-fuchsia-500 to-indigo-500 rounded-full w-2/3 transition-all duration-700 ease-in-out"></div>
+    </div>
+    <div class="flex justify-between mt-2 text-xs text-gray-400">
+      <span>Low</span>
+      <span>Calm</span>
+      <span>Happy</span>
+      <span>Grateful</span>
+    </div>
+  </div>
+  <!-- Circular Tracker -->
+  <div class="relative w-full max-w-sm mx-auto">
+    <div class="relative rounded-full w-64 h-64 mx-auto bg-[#150025] border-4 border-fuchsia-700 shadow-xl flex items-center justify-center hover:scale-105 transition-transform duration-500">
+      <div class="text-center">
+        <h4 class="text-lg font-light text-gray-300">Your Journey</h4>
+        <p class="text-3xl font-bold text-fuchsia-300 mt-2">42%</p>
+        <p class="text-sm text-gray-400 mt-1">to Self-Mastery</p>
+      </div>
+      <svg class="absolute top-0 left-0 w-full h-full transform rotate-[-90deg]" viewBox="0 0 100 100">
+        <circle cx="50" cy="50" r="45" stroke="#3b0b63" stroke-width="10" fill="none" />
+        <circle cx="50" cy="50" r="45" stroke="#ec4899" stroke-width="10" fill="none" stroke-dasharray="282.6" stroke-dashoffset="164" stroke-linecap="round" class="transition-all duration-700" />
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="py-20 px-6 md:px-20 bg-[#030208] text-white">
+  <h2 class="text-4xl font-bold text-center text-pink-400 mb-12">💬 Real Stories</h2>
+  <div class="grid md:grid-cols-3 gap-8">
+    <div class="bg-gradient-to-br from-[#0e0019] to-[#1f0030] rounded-2xl p-6 shadow-lg border border-pink-600 hover:shadow-pink-400/40 transition duration-300">
+      <p class="italic text-sm text-gray-300 mb-4">“Solo Sparks changed the way I see myself. I started looking inward and appreciating who I am.”</p>
+      <p class="text-right text-xs text-pink-400">– Anonymous</p>
+    </div>
+    <div class="bg-gradient-to-br from-[#0d0016] to-[#220037] rounded-2xl p-6 shadow-lg border border-purple-600 hover:shadow-fuchsia-400/40 transition duration-300">
+      <p class="italic text-sm text-gray-300 mb-4">“It gently pushed me into a rhythm of self-love. Now, I celebrate my small wins every day.”</p>
+      <p class="text-right text-xs text-purple-400">– Riya (name changed)</p>
+    </div>
+    <div class="bg-gradient-to-br from-[#10001a] to-[#2d0048] rounded-2xl p-6 shadow-lg border border-indigo-600 hover:shadow-indigo-400/40 transition duration-300">
+      <p class="italic text-sm text-gray-300 mb-4">“The spark points are fun, but the reflection helped me rediscover parts of myself I forgot.”</p>
+      <p class="text-right text-xs text-indigo-400">– Dev</p>
+    </div>
+  </div>
+</section>
+
+<section class="relative py-20 px-6 md:px-20 bg-[#030208] text-white overflow-hidden">
+  <div class="absolute inset-0 bg-gradient-to-br from-pink-500/10 via-fuchsia-500/10 to-indigo-500/10 blur-3xl"></div>
+  <div class="relative z-10 text-center max-w-3xl mx-auto">
+    <h2 class="text-3xl md:text-4xl font-bold mb-6 text-yellow-400">🌈 You are your own home. Start decorating it.</h2>
+    <p class="text-gray-300 mb-8">Every journey begins with a spark. Let this be yours.</p>
+    <button class="px-8 py-4 bg-gradient-to-r from-pink-600 via-fuchsia-600 to-indigo-600 text-white rounded-full text-lg font-semibold shadow-lg hover:scale-105 transition-transform duration-300">Begin Your First Spark</button>
+  </div>
+</section>
+
+<footer style="background:#05051d; color: #fff; padding: 60px 20px; text-align: center; font-family: 'Poppins', sans-serif; position: relative; overflow: hidden;">
+  
+
+  <img src="assest/footer.avif" alt="Neon Woman" class="footer-image" />
+
+  <div class="footer-content">
+    <div class="footer-heading">Stay Connected with Us</div>
+    <div class="footer-text">
+To fall in love with yourself is the first secret to happiness   <br/>
+   Follow us for updates and artistic inspiration.
+    </div>
+    <div class="footer-links">
+      <a href="#">Home</a>
+      <a href="#">How its work</a>
+      <a href="#">Testimonial</a>
+      <a href="#">Anything</a>
+    </div>
+    <p style="margin-top: 30px; font-size: 14px; color: #aaa;">© 2025 Your Website. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+
+    <script>
+const openedSteps = new Set();
+
+function toggleBox(id) {
+  const boxes = ['box1', 'box2', 'box3', 'box4'];
+  boxes.forEach(b => document.getElementById(b).classList.add('hidden'));
+  document.getElementById(id).classList.remove('hidden');
+}
+
+function submitTask(id) {
+  if (id === 'box1') {
+    const val = document.getElementById('feelingInput').value.trim();
+    if (!val) return alert('Please write about your feelings before submitting.');
+  }
+  if (id === 'box3') {
+    const upload = document.getElementById('reflectionUpload').files.length;
+    if (!upload) return alert('Please upload your reflection to proceed.');
+  }
+  openedSteps.add(id);
+  document.getElementById(id).classList.add('hidden');
+  checkCompletion();
+}
+
+function checkCompletion() {
+  const summary = document.getElementById('box4');
+  const completed = ['box1', 'box3'].every(id => openedSteps.has(id));
+  if (completed) {
+    summary.classList.remove('hidden');
+    summary.classList.add('animate__animated', 'animate__fadeInUp');
+    launchConfetti();
+  } else {
+    summary.classList.add('hidden');
+  }
+}
+
+window.addEventListener('click', function(e) {
+  const ids = ['box1', 'box2', 'box3', 'box4'];
+  const isBox = ids.some(id => document.getElementById(id).contains(e.target));
+  const isCard = e.target.closest('.group');
+  if (!isBox && !isCard) {
+    ids.forEach(id => document.getElementById(id).classList.add('hidden'));
+  }
+});
+
+function launchConfetti() {
+  const canvas = document.createElement('canvas');
+  canvas.setAttribute('id', 'confetti');
+  canvas.className = 'fixed top-0 left-0 w-full h-full pointer-events-none z-50';
+  document.body.appendChild(canvas);
+  const confettiSettings = { target: canvas, max: 100, size: 1.2, animate: true };
+  const confetti = new ConfettiGenerator(confettiSettings);
+  confetti.render();
+  setTimeout(() => canvas.remove(), 4000);
+}
+
+function checkCompletion() {
+  const summary = document.getElementById('box4');
+  const completed = ['box1', 'box3'].every(id => openedSteps.has(id));
+  if (completed) {
+    summary.classList.remove('hidden');
+    summary.classList.add('animate__animated', 'animate__fadeInUp');
+    document.getElementById("growth-tracker").classList.remove("hidden");
+    launchConfetti();    
+    // 🎉 Play applause audio
+    const applause = new Audio('assest/yay-6120.mp3');
+    applause.play();
+  } else {
+    summary.classList.add('hidden');
+        document.getElementById("growth-tracker").classList.add("hidden");
+
+  }
+}
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js"></script>
+
+  </body>
+
+</html>
